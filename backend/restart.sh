@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+cd backend
+
 echo "Restarting FastAPI Backend..."
 
 pkill -f "uvicorn main:app" || echo "No previous backend process running."
