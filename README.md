@@ -12,12 +12,6 @@ This project was bootstrapped with
 
 - ADD `WHOIS_API_KEY` environment variable or directly paste in `/backend/config.py` file
 
-### Quick Run
-```
-bash /backend/restart.sh
-bash /frontend/restart.sh
-```
-
 ## Development
 
 #### Frontend
